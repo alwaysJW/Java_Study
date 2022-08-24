@@ -17,7 +17,7 @@ public class successServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html;charset=utf-8");
-        Object name = request.getAttribute("name");
-        response.getWriter().write("你好，"+name+"欢迎登录");
+        User name = (User)request.getAttribute("user");
+        response.getWriter().write("你好"+name.getUsername()+",欢迎登录");
     }
 }
