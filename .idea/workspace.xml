@@ -54,7 +54,16 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.BeanUtilsTest.test">
+  <component name="RunManager" selected="JUnit.BeanUtilsTest">
+    <configuration name="BeanUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="THEServlet_study" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BeanUtilsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BeanUtilsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="THEServlet_study" />
       <option name="PACKAGE_NAME" value="" />
@@ -177,9 +186,11 @@
       <item itemvalue="JUnit.UserDaoTest.insertTest" />
       <item itemvalue="JUnit.UserDaoTest" />
       <item itemvalue="JUnit.BeanUtilsTest.test" />
+      <item itemvalue="JUnit.BeanUtilsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeanUtilsTest" />
         <item itemvalue="JUnit.BeanUtilsTest.test" />
         <item itemvalue="JUnit.UserDaoTest.insertTest" />
         <item itemvalue="JUnit.UserDaoTest" />
