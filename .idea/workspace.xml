@@ -9,10 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbdf00bd-6c23-4d10-a76b-446ffc155a32" name="变更" comment="更新1.0.0.2">
+    <list default="true" id="bbdf00bd-6c23-4d10-a76b-446ffc155a32" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/THEServlet_study/src/main/java/com/example/servlet/CheckCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THEServlet_study/src/main/webapp/js/check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/THEServlet_study/src/main/webapp/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64d83afa-ac63-4ff2-91e7-9742dab141db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/64d83afa-ac63-4ff2-91e7-9742dab141db.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THEServlet_study/target/classes/com/example/servlet/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/THEServlet_study/target/classes/com/example/servlet/Servlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THEServlet_study/target/classes/com/example/servlet/successServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/THEServlet_study/target/classes/com/example/servlet/successServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THEServlet_study/target/THEServlet_study-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/THEServlet_study/target/THEServlet_study-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THEServlet_study/target/THEServlet_study-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/THEServlet_study/target/THEServlet_study-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/Servlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THEServlet_study/target/THEServlet_study-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/successServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/THEServlet_study/target/THEServlet_study-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/successServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,12 +55,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/THEServlet_study/src/main/webapp/static/bootstrap-3.4.1-dist/js" />
     <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.BeanUtilsTest">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\Java_Study\THEServlet_study\src\main\webapp\static\bootstrap-3.4.1-dist\js" />
+      <recent name="E:\GitHub\Java_Study\THEServlet_study\src\main\webapp\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.servlet" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 10.0.18">
     <configuration name="BeanUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="THEServlet_study" />
       <option name="PACKAGE_NAME" value="" />
@@ -182,11 +198,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat 服务器.Tomcat 10.0.18" />
       <item itemvalue="JUnit.UserDaoTest.insertTest" />
       <item itemvalue="JUnit.UserDaoTest" />
       <item itemvalue="JUnit.BeanUtilsTest.test" />
       <item itemvalue="JUnit.BeanUtilsTest" />
+      <item itemvalue="Tomcat 服务器.Tomcat 10.0.18" />
     </list>
     <recent_temporary>
       <list>
@@ -207,7 +223,8 @@
       <updated>1661268692612</updated>
       <workItem from="1661268694652" duration="128000" />
       <workItem from="1661268917278" duration="1871000" />
-      <workItem from="1661329274167" duration="2958000" />
+      <workItem from="1661329274167" duration="3791000" />
+      <workItem from="1661412605707" duration="3953000" />
     </task>
     <task id="LOCAL-00001" summary="更新1.0.0.1">
       <created>1661270638808</created>
@@ -237,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661332230447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更新1.0.0.2">
+      <created>1661332282274</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661332282274</updated>
+    </task>
+    <task id="LOCAL-00006" summary="更新1.0.0.2">
+      <created>1661332524144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661332524144</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
