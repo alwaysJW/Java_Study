@@ -10,14 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbdf00bd-6c23-4d10-a76b-446ffc155a32" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/THEServlet_study/src/main/java/com/example/servlet/CheckCodeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/THEServlet_study/src/main/webapp/js/check.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/THEServlet_study/src/main/webapp/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64d83afa-ac63-4ff2-91e7-9742dab141db.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/64d83afa-ac63-4ff2-91e7-9742dab141db.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THEServlet_study/target/THEServlet_study-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/THEServlet_study/target/THEServlet_study-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THEServlet_study/target/THEServlet_study-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/Servlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/THEServlet_study/target/THEServlet_study-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/Servlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/THEServlet_study/target/THEServlet_study-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/successServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/THEServlet_study/target/THEServlet_study-1.0-SNAPSHOT/WEB-INF/classes/com/example/servlet/successServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/THEServlet_study/THEServlet_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/THEServlet_study/THEServlet_study.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +218,10 @@
       <workItem from="1661268694652" duration="128000" />
       <workItem from="1661268917278" duration="1871000" />
       <workItem from="1661329274167" duration="3791000" />
-      <workItem from="1661412605707" duration="3953000" />
+      <workItem from="1661412605707" duration="4302000" />
+      <workItem from="1661591142601" duration="175000" />
+      <workItem from="1661756718068" duration="60000" />
+      <workItem from="1661757955448" duration="1439000" />
     </task>
     <task id="LOCAL-00001" summary="更新1.0.0.1">
       <created>1661270638808</created>
@@ -268,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661332524144</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新1.0.0.3">
+      <created>1661416838335</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661416838335</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +293,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新1.0.0.1" />
     <MESSAGE value="更新1.0.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新1.0.0.2" />
+    <MESSAGE value="更新1.0.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新1.0.0.3" />
   </component>
 </project>

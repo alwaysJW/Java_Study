@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+<script src="js/check.js"></script>
+</head>
+<body>
+<form action="">
+    <table align="center">
+        <tr><td><label>用户名：</label></td>
+            <td><label><input type="text" name="username" placeholder="请输入用户名"></label></td></tr>
+        <tr><td><label>密&nbsp;&nbsp;&nbsp;码：</label></td>
+            <td><label><input type="password" name="password"></label></td></tr>
+        <tr><td><label>验证码：</label></td>
+            <td><label><input type="text" name="checkCode"></label></td></tr>
+        <tr><td></td><td><label><img id="checkCode" src="/CheckCode" alt="加载失败"></label></td></tr>
+        <tr><td></td><td><a id="change" href="javascript:chang();">看不清，换一张？</a></td></tr>
+        <tr><td></td><td><label><input type="submit"></label></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
