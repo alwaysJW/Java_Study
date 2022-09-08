@@ -12,7 +12,23 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jQuery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript"></script>
+    <script type="text/javascript">
+        function fun() {
+            let password = document.getElementById("inputPassword3");
+            let flag=true;
+            if (password.value.length===0){
+                alert("用户名不能为空！");
+                flag=false;
+            }
+            if (password.value.length<6||password.value.length>12){
+                alert("电话号码长度应为11位");
+                flag=false;
+            }
+            if (flag) {
+                document.getElementById("form").submit();
+            }
+        }
+    </script>
 </head>
 <body style="background: url(/img/register.jpeg) no-repeat center">
 <nav class="navbar navbar-default">
@@ -25,7 +41,7 @@
     </div>
 </nav>
 <div style="height: 400px; width: 600px; border: 3px solid red; margin: 60px auto;background: #d0e9c6">
-    <form action="registerServlet" class="form-horizontal" style="margin: 60px 60px 60px">
+    <form id="form" action="registerServlet" class="form-horizontal" style="margin: 60px 60px 60px">
         <div class="form-group">
             <h1 class="col-sm-12" style="text-align: center">欢迎注册学生信息管理系统</h1>
         </div>
@@ -58,7 +74,7 @@
         </div>
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default" style="font-size: larger">注册</button>
+                <a class="btn btn-default" style="font-size: larger" href="javascript:fun();">注册</a>
             </div>
         </div>
         <div class="form-group">

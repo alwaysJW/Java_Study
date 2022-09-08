@@ -13,6 +13,9 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 <script type="text/javascript">
+    function check() {
+
+    }
 </script>
 <body style="background: url(/img/school.jpeg) center no-repeat;">
 <div style="margin: 50px auto; width: 600px;height: 400px;border: 2px solid red;background-color: wheat">
@@ -44,7 +47,7 @@
             </div>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class="btn btn-default" style="font-size: larger" onclick="check()">登录</button>
+                    <button  class="btn btn-default" style="font-size: larger" onclick="check()">登录</button>
                 </div>
             </div><div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">

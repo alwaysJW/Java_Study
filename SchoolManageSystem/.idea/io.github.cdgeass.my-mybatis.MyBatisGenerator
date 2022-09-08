@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CommentGenerator">
+    <option name="propertiesMap">
+      <map>
+        <entry key="addRemarkComments" value="true" />
+        <entry key="suppressDate" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Context">
+    <option name="propertiesMap">
+      <map>
+        <entry key="javaFileEncoding" value="UTF-8" />
+      </map>
+    </option>
+  </component>
+</project>

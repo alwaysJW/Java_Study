@@ -13,12 +13,32 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/jQuery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript"></script>
+    <script type="text/javascript">
+
+             function fun(){
+                let name = document.getElementById("name");
+                let tele = document.getElementById("tele");
+                let flag=true;
+                if (name.value.length===0){
+                    alert("用户名不能为空！");
+                    flag=false;
+                }
+                if (tele.value.length!==11){
+                    alert("电话号码长度应为11位");
+                    flag=false;
+                }
+                if (flag) {
+                    document.getElementById("form").submit();
+                }
+        }
+
+
+    </script>
 </head>
 <body>
 <div class="container">
     <center><h3>用户注册页面</h3></center>
-    <form action="${pageContext.request.contextPath}/addStuServlet" method="post">
+    <form  id="form" action="${pageContext.request.contextPath}/addStuServlet" method="post">
         <div class="form-group">
             <label for="name">姓名：</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="请输入姓名">
@@ -70,7 +90,7 @@
         </div>
 
         <div class="form-group" style="text-align: center">
-            <input class="btn btn-primary" type="submit" value="提交"/>
+            <a class="btn btn-primary" href="javascript:fun();">提交</a>
             <input class="btn btn-default" type="reset" value="重置"/>
             <input class="btn btn-default" type="button" onclick="javascript:history.back();" value="返回"/>
         </div>
